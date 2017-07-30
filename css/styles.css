@@ -274,6 +274,22 @@ Subscribe
 .subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgba(61, 201, 179, 1); border: solid 1px rgba(61, 201, 179, 1); color: #fff; }
 /* ==========================================================================
+HRV Info
+========================================================================== */
+.hrvinfo { background: url('../img/keyboard-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0 140px; }
+.hrvinfo h1 { color: #fff; }
+.hrvinfo h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
+.hrvinfo input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
+.hrvinfo p { font-size: 15px; font-weight: bold; color: #fff; }
+.hrvinfo a:link {color: #fff; }
+.hrvinfo a:visited {color: #fff; }
+.hrvinfo a:hover {color: rgb(255,255,0); }
+.hrvinfo a:active {color: rgb(255,165,0); }
+/* a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked /*
+/* ==========================================================================
 CTA
 ========================================================================== */
 .ignite-cta { background-color: #242830; padding: 70px 0; }
