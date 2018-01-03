@@ -221,9 +221,18 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro { background: #f3f5f8; }
+.intro { background: #fff; }
 .intro p { margin: 50px 0 0; }
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+/* ==========================================================================
+News section
+========================================================================== */
+.news {background-color: white; margin-left: 20px; margin-right: 20px; }
+.news h1 { font-size: 30px; font-weight: bolder; letter-spacing: 4px; margin: 10px; }
+.news h1 span { color: #a1a9b0; display: inline-block; }
+.news p { letter-spacing: 1px; color: #000; font-weight: bold; }
+.news ul {  }
+.news a { color: #000; }
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -237,11 +246,15 @@ iPhone Section
 .fluid-white { width: 50%; background: #fff; float: right; height: 100%; z-index: 2; }
 .responsive-services { position: relative; }
 /* ==========================================================================
-Swag
+Patent Pub No
 ========================================================================== */
-.swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
-.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
-.swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.patent { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.patent h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.patent h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.patent a:link {color: #fff; }
+.patent a:visited {color: #fff; }
+.patent a:hover {color: rgb(255,255,0); }
+.patent a:active {color: rgb(255,165,0); }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 /* ==========================================================================
@@ -329,8 +342,8 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
-#servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px; }
+#servicesSlider { margin-top: 10px; }
+ul.slides li { margin-bottom: 10px; }
 /* ==========================================================================
 Waypoints
 ========================================================================== */

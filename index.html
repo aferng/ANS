@@ -18,6 +18,44 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" buttonhref="#">Autonomic Systems: A Heart Rate Variability Company</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">The Team</a></li>
+            <li class="divider"></li>
+            <li><a href="#patent">USPTO Patent</a></li>
+            <li><a href="#portfolio">Why HRV?</a></li>
+            <li><a href="#references">Learn More</a></li>
+            <li class="divider"></li>
+            <li><a href="docs/ANS Press Release R6F.pdf" download>Download Press Release</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
       </head>
       <body id="top">
         <header id="home">
@@ -37,6 +75,24 @@
             </div>
           </section>
         </header>
+        <br><br><br>
+          <section class="news" id="news">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h1 class="panel-title"><center>Current News</center></h1>
+              </div>
+              <div class="panel-body">
+                <p><center><strong>Happy 2018! We are now actively seeking partnerships and investors.</strong></center></p>
+              </div>
+                <!-- List group -->
+              <ul class="list-group">
+                <li class="list-group-item"><strong>January 9-12, 2018</strong>: ANS team will be attending <a href="https://www.ces.tech/" target="_blank">CES 2018</a>. <a href="#contact">Email</a> us to set up an appointment! </li>
+                <li class="list-group-item"><a href="https://www.businesswire.com/news/home/20170714005258/en/Autonomic-Systems-Achieves-Key-IP-Position-Generation" target="_blank"><strong>July 14, 2017</strong>: Business Wire- Autonomic Systems Achieves Key IP Position for Next Generation Wearable Tech</a></li>
+                <li class="list-group-item"><a href="https://patents.justia.com/patent/20160367157" target="_blank"><strong>May 23, 2017</strong>: Non-Provisional Patent Granted To ANS for "Wearable Physiological Monitoring and Notification System Based On Real-Time Heart Rate Variability Analysis" (Patent Publication No.: 20160367157)</a></li>
+                <li class="list-group-item"><strong>August 21, 2015</strong>: Autonomic Systems LLC (ANS) was founded by Michael Blake and Rodney Kugizaki</a></li>
+              </ul>
+            </div>
+          </section>
         <section class="intro text-center section-padding" id="intro">
           <div class="container">
             <div class="row">
@@ -122,11 +178,11 @@
             </div>
           </div>
         </section>
-        <section class="swag text-center">
+        <section class="patent text-center" id="patent">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <h1>Patent: "WEARABLE PHYSIOLOGICAL MONITORING AND NOTIFICATION SYSTEM BASED ON REAL-TIME HEART RATE VARIABILITY ANALYSIS"<span> <em>- United States Patent and Trademark Office (USPTO)</em> #US9655532</span></h1>
+                <h1><a href="https://www.google.com/patents/US20160367157" target="_blank">Patent: "WEARABLE PHYSIOLOGICAL MONITORING AND NOTIFICATION SYSTEM BASED ON REAL-TIME HEART RATE VARIABILITY ANALYSIS"<span> <em>- United States Patent and Trademark Office (USPTO)</em> #US9655532</span></h1></a>
                 <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
               </div>
             </div>
@@ -137,7 +193,6 @@
             <div class="row">
               <div id="portfolioSlider">
                 <ul class="slides">
-
                   <li>
                     <div class="col-md-4 wp4">
                       <div class="overlay-effect effects clearfix">
@@ -215,7 +270,7 @@
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="https://linkedin.com/in/mike-blake-2422742" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="mailto:mblake@autonomicsystemsLLC.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:mike@autonomicsystemsLLC.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                           </ul>
                         </div>
                       </div>
@@ -227,18 +282,18 @@
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="https://linkedin.com/in/rodney-kugizaki-56482010" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#contact" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:rodney@autonomicsystemsLLC.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                           </ul>
                         </div>
                       </div>
                       <div class="col-md-4 wp5 delay-1s">
-                        <img src="img/team-03.png" alt="Team Member">
+                        <img src="img/team-03.jpg" alt="Team Member">
                         <h2>Dr. Alice Ferng<br>Chief Medical Officer</h2>
                         <p>Alice is an engineer and scientist who is very passionate about medical technology, healthcare, and education. She has worked in many clinical translational laboratories over the past 15 years, most recently interacting with cardiac transplant patients while working on cardiac organogenesis (growing hearts in bioreactors), stem cell therapies, and 3D bioprinting. She has experience working with medical apps and devices. </p>
                         <div class="social">
                           <ul class="social-buttons">
                             <li><a href="https://www.linkedin.com/in/aferng" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#contact" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="mailto:alice@autonomicsystemsLLC.com" class="social-btn"><i class="fa fa-envelope"></i></a></li>
                           </ul>
                         </div>
                       </div>
@@ -249,9 +304,9 @@
             </div>
           </div>
         </section>
-        <section class="hrvinfo text-center">
+        <section class="hrvinfo text-center" id="references">
           <div class="container">
-            <h1><i class="fa fa-newspaper-o"></i><span>Check back for more updates!
+            <h1><i class="fa fa-newspaper-o"></i><span><a href="#news">Check back for more updates!</a>
             <br><br>-----------<br><br>
             <br><br>Read more about Heart Rate Variability (HRV)
             <br>
@@ -305,13 +360,8 @@
         <footer>
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <ul class="legals">
-                  <li><font color=#484848>Web Design by Peter Finlan.</font></li>
-                </ul>
-              </div>
-              <div class="col-md-6 credit">
-                <p>Copyright &copy; Autonomic Systems LLC | 2017</p>
+              <div class="col-md-12 credit">
+                <p>Copyright &copy; Autonomic Systems LLC | 2018</p>
               </div>
             </div>
           </div>
@@ -326,4 +376,4 @@
         <script src="js/modernizr.js"></script>
       </body>
     </html>
-<!-- Designed & Developed by Peter Finlan exclusively for Codrops -->
+<!-- Initial Web Layout Designed & Developed by Peter Finlan exclusively for Codrops; Adapted by ANS -->
